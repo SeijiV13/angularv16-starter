@@ -1,0 +1,10 @@
+<div class="form">
+
+  <button (click)="mutate('John', 'Doe')">Set name to John Doe (Mutate)</button>
+  <button (click)="set()">Set Author to Active</button>
+  <button (click)="update()">Increment Books</button>
+  <div>Name: {{author().firstName}} {{author().lastName}}</div>
+  <div>Active: {{active()}}</div>
+  <div>Books: {{books()}}</div>
+  <div>Status: {{status()}}</div>
+</div>

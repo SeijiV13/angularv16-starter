@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  display:flex;
+  justify-content: space-evenly;
+}
+.form {
+  display: block;
+}
+li {
+  cursor: pointer;
+}
+
